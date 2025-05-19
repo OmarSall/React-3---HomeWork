@@ -1,16 +1,12 @@
-import { useState } from 'react'
 import "./App.css"
 import Clock from "./components/Clock.jsx"
 import MouseTracker from "./components/MouseTracker.jsx"
 import  HourlyForecast  from './components/HourlyForecast.jsx'
 
-
-
 function App() {
 
-
   return (
-    <div style={{ padding: '1rem', fontFamily: 'Arial' }}>
+    <div>
         <h1>🌍 Weather Homework App 🌍</h1>
         <Clock />
         <MouseTracker />
