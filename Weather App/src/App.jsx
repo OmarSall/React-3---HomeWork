@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import "./App.css"
 import Clock from "./components/Clock.jsx"
-// import { MouseTracker } from './MouseTracker.jsx'
-// import { HourlyForecast } from './HourlyForecast.jsx'
+import MouseTracker from "./components/MouseTracker.jsx"
+// import  HourlyForecast  from './HourlyForecast.jsx'
 
 
 
@@ -13,6 +13,7 @@ function App() {
     <div style={{ padding: '1rem', fontFamily: 'Arial' }}>
         <h1>🌍 Weather Homework App 🌍</h1>
         <Clock />
+        <MouseTracker />
     </div>
   )
 }
